@@ -1,0 +1,11 @@
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - '@testplane/edgedriver'
+  - '@testplane/geckodriver'
+  - aws-sdk
+  - core-js-pure
+  - edgedriver
+  - esbuild
+  - geckodriver
+  - sharp
+  - unrs-resolver

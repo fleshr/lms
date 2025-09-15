@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedIndexedAccess": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/app/*": ["./src/1_app/*"],
+      "@/pages/*": ["./src/2_pages/*"],
+      "@/widgets/*": ["./src/3_widgets/*"],
+      "@/features/*": ["./src/4_features/*"],
+      "@/entities/*": ["./src/5_entities/*"],
+      "@/shared/*": ["./src/6_shared/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".storybook/**/*.ts",
+    "postcss.config.js"
+  ],
+  "exclude": ["node_modules"]
+}
